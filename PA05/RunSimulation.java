@@ -22,11 +22,11 @@ public class RunSimulation {
 		int numSkeptic = Integer.parseInt(args[4]);
 		int numFlier = Integer.parseInt(args[5]);
 		int numYoung = Integer.parseInt(args[6]);
-
+		int num7Days = Integer.parseInt(args[7]);
 
 		Population population;
 
-		population = new MixedPopulation(numStayHome, numEssential, numSkeptic, numFlier, numYoung);
+		population = new MixedPopulation(numStayHome, numEssential, numSkeptic, numFlier, numYoung, num7Days);
 		population.createPeople();
 
 		Country country = new Country(width, height);

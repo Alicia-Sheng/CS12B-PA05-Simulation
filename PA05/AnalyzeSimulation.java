@@ -1,5 +1,14 @@
 package lesson19;
 
+/**
+ * AnalyzeSimulation prints out the basic information of each simulation and a
+ * conclusion of average values of infected information, which shows the result
+ * directly.
+ * 
+ * @author Alicia Sheng
+ *
+ */
+
 public class AnalyzeSimulation {
 	private static int MAX_TICKS = RunSimulation.maxTick();
 
@@ -11,7 +20,8 @@ public class AnalyzeSimulation {
 		int numSkeptic = Integer.parseInt(args[4]);
 		int numFlier = Integer.parseInt(args[5]);
 		int numYoung = Integer.parseInt(args[6]);
-		int numRepetition = Integer.parseInt(args[7]);
+		int num7Days = Integer.parseInt(args[7]);
+		int numRepetition = Integer.parseInt(args[8]);
 		int numOfDay = 0;
 		int peakInfectedLevel = 0;
 		int count = 0;
@@ -29,7 +39,7 @@ public class AnalyzeSimulation {
 			count++;
 			peakInfectedLevel = 0;
 			Population population;
-			population = new MixedPopulation(numStayHome, numEssential, numSkeptic, numFlier, numYoung);
+			population = new MixedPopulation(numStayHome, numEssential, numSkeptic, numFlier, numYoung, num7Days);
 			population.createPeople();
 
 			Country country = new Country(width, height);
