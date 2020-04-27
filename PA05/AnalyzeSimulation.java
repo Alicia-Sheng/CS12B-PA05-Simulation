@@ -1,4 +1,4 @@
-package lesson19;
+package PA05;
 
 /**
  * AnalyzeSimulation prints out the basic information of each simulation and a
