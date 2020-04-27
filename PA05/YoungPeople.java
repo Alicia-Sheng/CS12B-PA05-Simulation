@@ -1,4 +1,4 @@
-package lesson19;
+package PA05;
 
 import java.util.Random;
 // This subclass represents young people who has lower probability to be infected and needs less time to get recovered once they are infected.
