@@ -1,4 +1,4 @@
-package lesson19;
+package PA05;
 
 //this subclass represents a person who moves randomly once every 7 days
 public class Move7Days extends Person {
