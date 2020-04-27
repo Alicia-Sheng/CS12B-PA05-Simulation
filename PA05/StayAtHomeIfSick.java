@@ -1,4 +1,4 @@
-package lesson19;
+package PA05;
 
 public class StayAtHomeIfSick extends Person {
 
