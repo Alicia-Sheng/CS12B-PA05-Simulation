@@ -1,5 +1,3 @@
-package PA05;
-
 public class MixedPopulation extends Population {
 	int numShelterInPlace;
 	int numEssential;
@@ -7,7 +5,7 @@ public class MixedPopulation extends Population {
 	int numFlier;
 	int numYoung;
 	int num7Days;
-	
+
 	public MixedPopulation(int numShelterInPlace, int numEssential, int numOthers, int numFlier, int numYoung, int num7Days) {
 		super(numShelterInPlace + numEssential + numOthers + numFlier + numYoung + num7Days);
 		this.numShelterInPlace = numShelterInPlace;

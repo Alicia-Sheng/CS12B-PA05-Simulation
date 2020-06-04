@@ -1,9 +1,7 @@
-package PA05;
-
 import java.util.Random;
 
 /**
- * 
+ *
  * @author tim
  *
  */

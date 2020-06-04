@@ -1,5 +1,3 @@
-package PA05;
-
 public class StayAtHome extends Person {
 
 	public StayAtHome() {

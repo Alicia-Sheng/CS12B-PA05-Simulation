@@ -1,5 +1,3 @@
-package PA05;
-
 public class AllStayAtHome extends Population{
 
   public AllStayAtHome(int n){
